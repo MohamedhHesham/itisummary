@@ -1,0 +1,14 @@
+D:\ITI\PearlySoft\Gem\bin\Debug\net10.0\Gem.exe
+D:\ITI\PearlySoft\Gem\bin\Debug\net10.0\Gem.deps.json
+D:\ITI\PearlySoft\Gem\bin\Debug\net10.0\Gem.runtimeconfig.json
+D:\ITI\PearlySoft\Gem\bin\Debug\net10.0\Gem.dll
+D:\ITI\PearlySoft\Gem\bin\Debug\net10.0\Gem.pdb
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\Gem.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\Gem.AssemblyInfoInputs.cache
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\Gem.AssemblyInfo.cs
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\Gem.csproj.CoreCompileInputs.cache
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\Gem.dll
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\refint\Gem.dll
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\Gem.pdb
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\Gem.genruntimeconfig.cache
+D:\ITI\PearlySoft\Gem\obj\Debug\net10.0\ref\Gem.dll

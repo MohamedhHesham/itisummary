@@ -1,0 +1,35 @@
+﻿@model List<Department>
+<h1 class="alert alert-light text-center">Departments Index</h1>
+<a class="btn btn-success" asp-controller="Departments" asp-action="GetCreateView">Create New</a>
+<table class="table table-bordered table-striped table-hover text-center">
+    <caption class="caption-top text-center fs-3">All Departments</caption>
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Department department in Model)
+        {
+            <tr>
+                <td>@department.Id</td>
+                <td>@department.Name</td>
+                <td>@department.Description</td>
+                <td>  <a asp-controller="Departments" asp-action="GetDetailsView" asp-route-id=@department.Id>Details</a>
+                    <td>
+                        <a asp-controller="Departments" asp-action="GetEditView" asp-route-id=@department.Id>Edit</a>
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            @* <tr>
+                <th colspan="3" style="text-align:right">Total</th>
+                <th>@Model.Sum(e => e.Salary)</th>
+            </tr> *@
+        </tfoot>
+    </table>

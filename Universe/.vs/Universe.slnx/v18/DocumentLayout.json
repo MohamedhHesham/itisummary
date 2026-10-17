@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\Universe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|d:\\iti\\universe\\horizon\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|solutionrelative:horizon\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|d:\\iti\\universe\\horizon\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|solutionrelative:horizon\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|d:\\iti\\universe\\horizon\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|solutionrelative:horizon\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|d:\\iti\\universe\\horizon\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|solutionrelative:horizon\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|d:\\iti\\universe\\horizon\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|solutionrelative:horizon\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|d:\\iti\\universe\\horizon\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|solutionrelative:horizon\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|d:\\iti\\universe\\horizon\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|solutionrelative:horizon\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|d:\\iti\\universe\\horizon\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A710CEC7-C0A3-2CF5-0F92-460A7BAD0D8A}|Horizon\\Horizon.csproj|solutionrelative:horizon\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 787,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Horizon\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Horizon\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T13:46:17.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Horizon\\Views\\Employees\\Edit.cshtml",
+              "ToolTip": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "Horizon\\Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-03T13:46:08.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\ITI\\Universe\\Horizon\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Horizon\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\ITI\\Universe\\Horizon\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Horizon\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAIAwwKgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T13:44:26.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Details.cshtml",
+              "RelativeDocumentMoniker": "Horizon\\Views\\Employees\\Details.cshtml",
+              "ToolTip": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Details.cshtml",
+              "RelativeToolTip": "Horizon\\Views\\Employees\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-21T00:11:35.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Horizon\\Views\\Employees\\Delete.cshtml",
+              "ToolTip": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Delete.cshtml",
+              "RelativeToolTip": "Horizon\\Views\\Employees\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T23:51:48.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "Horizon\\Views\\Employees\\Create.cshtml",
+              "ToolTip": "D:\\ITI\\Universe\\Horizon\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "Horizon\\Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T23:01:56.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\ITI\\Universe\\Horizon\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Horizon\\Models\\Employee.cs",
+              "ToolTip": "D:\\ITI\\Universe\\Horizon\\Models\\Employee.cs",
+              "RelativeToolTip": "Horizon\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:01:44.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ITI\\Universe\\Horizon\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Horizon\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\ITI\\Universe\\Horizon\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Horizon\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T20:10:34.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿<h1 class="alert alert-warning text-danger">Are you sure you want to Layoff this Employee?</h1>
+
+@model Employee
+
+<div class="row">
+    <dl class="col-8 row">
+        <dt class="col-sm-3">ID</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(e => e.FullName)</dt>
+        <dd class="col-sm-9">@Model.FullName</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(e => e.Position)</dt>
+        <dd class="col-sm-9">@Model.Position</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(e => e.Salary)</dt>
+        <dd class="col-sm-9">@Model.Salary.ToString("C2")</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(e => e.NationalId)</dt>
+        <dd class="col-sm-9">@Model.NationalId</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(e => e.Country)</dt>
+        <dd class="col-sm-9">@Model.Country</dd>
+        <dt class="col-sm-3">Department</dt>
+        <dd class="col-sm-9">@Model.Department.Name (@Model.Department.Description)</dd>
+
+        <dt class="col-sm-3">Phone Number</dt>
+        <dd class="col-sm-9">@Model.PhoneNo</dd>
+        <dt class="col-sm-3">Email</dt>
+        <dd class="col-sm-9">@Html.DisplayNameFor(e=> e.Email)</dd>
+        <dt class="col-sm-3">BirthDate</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(e => e.BirthDate)</dd>
+        <dt class="col-sm-3">isActive?</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(e => e.isActive)</dd>
+    </dl>
+    <img src="@Model.ImagePath" style="object-fit:contain" class="col-4" />
+</div>
+<form method="post" asp-controller="Employees" asp-action="DeleteEmployee">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Confirm Delete</button>
+</form>
+
+<a asp-controller="Employees" asp-action="GetIndexView">Back to list</a>
+
+<div style="height:200px"></div>
+

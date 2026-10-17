@@ -1,0 +1,83 @@
+﻿<h1 class="alert alert-info text-center ">Create New Employee</h1>
+
+@model Employee
+
+<div class="row">
+    <form method="post" asp-controller="Employees" asp-action="AddNew" class="col-4" enctype="multipart/form-data">
+        <div>
+            <label asp-for="FullName" class="form-label"></label>
+            <input type="text" asp-for="FullName" class="form-control" />
+            <span asp-validation-for="FullName" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Position" class="form-label"></label>
+            <input type="text" asp-for="Position" class="form-control" />
+            <span asp-validation-for="Position" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Salary" class="form-label"></label>
+            <input type="number" step=0.1 asp-for="Salary" class="form-control" />
+            <span asp-validation-for="Salary" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="NationalId" class="form-label"></label>
+            <input type="text" asp-for="NationalId" class="form-control" />
+            <span asp-validation-for="NationalId" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Country" class="form-label"></label>
+            <input type="text" asp-for="Country" class="form-control" />
+            <span asp-validation-for="Country" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="ImageFile" class="form-label"></label><br />
+            <input type="file" asp-for="ImageFile" accept=".png,.jpg" class="form-control" id="imageFileInput" onchange="addImage()" />
+        </div>
+        <div>
+            <label class="form-label">Department</label>
+            <select class="form-control" asp-for="DepartmentId" asp-items="@ViewBag.AllDepartments">
+                <option value="0" disabled selected>Select Department</option>
+            </select>
+            <span asp-validation-for="DepartmentId" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="PhoneNo" class="form-label"></label>
+            <input type="text" asp-for="PhoneNo" class="form-control" />
+            <span asp-validation-for="PhoneNo" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Email" class="form-label"></label>
+            <input type="text" asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="BirthDate" class="form-label"></label>
+            <input type="date" asp-for="BirthDate" class="form-control" />
+            <span asp-validation-for="BirthDate" class="text-danger"></span>
+        </div>
+
+        <div>
+            <label asp-for="ConfirmEmail" class="form-label"></label>
+            <input type="text" asp-for="ConfirmEmail" class="form-control" />
+            <span asp-validation-for="ConfirmEmail" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="isActive" class="form-label"></label>
+            <input type="checkbox" asp-for="isActive" class="form-check-input" />
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Add</button>
+            <a asp-controller="Employees" asp-action="GetIndexView" class="btn btn-secondary">Back to List</a>
+
+        </div>
+    </form>
+    <img src="" id="empImg" class="col-4" style="object-fit:contain" alt="Employee Image" />
+</div>
+@section Scripts{
+    <script>
+function addImage(){
+document.getElementById("empImg").src =
+window.URL.createObjectURL(document.getElementById("imageFileInput").files[0]);
+}
+    </script>
+}

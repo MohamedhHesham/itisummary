@@ -1,0 +1,24 @@
+﻿<h1 class="alert alert-dismissible text-center">Edit Department</h1>
+
+
+@model Department
+
+<div class="row">
+    <form method="post" asp-controller="Departments" asp-action="EditCurrent" class="col-4">
+        <input type="hidden" asp-for="Id" />
+        <div>
+            <label asp-for="Name" class="form-label"></label>
+            <input type="text" asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Description" class="form-label"></label>
+            <input type="text" asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Edit</button>
+            </div>
+    </form>
+    <a asp-action="GetIndexView" asp-controller="Departments">Back to List</a>
+</div>
